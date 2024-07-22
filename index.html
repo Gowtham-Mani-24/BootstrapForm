@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarap Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="container">
+        <div class="row mb-5 mt-5">
+            <h1>SOFTWARE REQUEST</h1>
+        </div>
+        <div class="row ms-3">
+            <form>
+                <div class="formname">
+                    <label for="name" class="form-label">Name</label><br>
+                    <input type="name" name="form-control" id="name">
+                </div>
+                <div class="formempid">
+                    <label for="empid" class="form-label">Employee ID</label><br>
+                    <input type="empid" name="form-control" id="empid">
+                </div>
+                <div class="formemail">
+                    <label for="email" class="form-label">Email</label><br>
+                    <input type="email" name="form-control" id="email">
+                </div>                
+                <div class="formmobile">
+                    <label for="mobile" class="form-label">Mobile No / Extn.No</label><br>
+                    <input type="mobile" name="form-control" id="mobile">
+                </div>
+
+                <div class="radio">
+                    <label for="softwarecheck" class="form-label">Which Software do you require?</label>                    
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="" id="flexCheckDefault">
+                    <label for="flexCheckDefault" class="form-check-label">Software A</label>                    
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="" id="flexCheckDefault">
+                    <label for="flexCheckDefault" class="form-check-label">Software B</label>                    
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="" id="flexCheckDefault">
+                    <label for="flexCheckDefault" class="form-check-label">Software C</label>
+                </div>
+
+                <div class="checkbox">
+                    <label for="timecheck" class="form-label">How urgently you need it?</label>                    
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">As soon as possible</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">Within 2 to 3 weeks</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                    <label class="form-check-label" for="flexRadioDefault3">I'm in no hurry</label>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">Request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
